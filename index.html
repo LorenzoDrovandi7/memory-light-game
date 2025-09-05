@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Light Game</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="game-container">
+      <h1>Memory Light Game</h1>
+      <div class="controls">
+        <button id="start">Start</button>
+        <button id="strict">Strict Mode</button>
+        <button id="reset">Reset</button>
+      </div>
+      <div class="info">
+        <span>
+          Step:
+          <span id="step">0</span>
+        </span>
+      </div>
+      <div class="board">
+        <div id="green" class="pad green"></div>
+        <div id="red" class="pad red"></div>
+        <div id="yellow" class="pad yellow"></div>
+        <div id="blue" class="pad blue"></div>
+      </div>
+      <div id="message" class="message"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
